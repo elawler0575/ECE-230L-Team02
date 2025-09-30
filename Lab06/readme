@@ -1,5 +1,8 @@
 # Number Theory: Addition
 
+Annika Camarillo
+Emaline Lawler
+
 In this lab you've learned the basics of number theory as it relates to addition.
 
 ## Rubric
@@ -13,10 +16,16 @@ In this lab you've learned the basics of number theory as it relates to addition
 
 ## Lab Questions
 
+#Summary
+In this lab, we learned the basic function of XOR and how it can act as addition. Now we can do math. However, we have to keep track of the carryout using AND so that we can have an accurate answer. 
+
 ### 1 - How might you add more than two bits together?
+Have the same number of adders as bits that need to be added together.
 
 ### 2 - What is the importance of the XOR gate in an adder?
+The XOR gate performs the function of addition. However, it does not have a way to handle the carryout.
 
 ### 3 - What is the largest number a two bit adder can handle? What happens when you go over?
+The largest number a two bit adder can handle would be 01 and 10 to add to 11. When you go over, the carryout is not added into the next place. Thus the answer is not accurate because the two bit adder doesn't have the resolution for larger numbers.
 
 
