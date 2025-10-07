@@ -1,5 +1,8 @@
 # Number Theory: Subtraction
 
+Annika Camarillo
+Emaline Lawler
+
 In this lab you've learned the basics of number theory as it relates to subtraction.
 
 ## Rubric
@@ -14,8 +17,10 @@ In this lab you've learned the basics of number theory as it relates to subtract
 ## Lab Questions
 
 ### 1 - Explain the differences between our Half Adder from last lab and the Half Subtractor from this lab.
+The difference between the half adder and the half subtractor is the carry/borrow. In the half adder, carry = A & B. In the half subtractor, borrow = ~A & B.
 
 ### 2 - What about the end around carry of One’s Complement makes it hard to use and implement?
+The end around carry is hard to use and implement because the msb depends on the carry of the lsb, but the carryin of the lsb depends on the carry out of msb. So you're in a loop that is unstable.
 
 ### 3 - What is the edge case and problem with Two’s Complement number representation?
-
+The number scale is uneven; there is one more negative number than the positive side. This means that the most negative number doesn't have a positive representation and causes overflow.
