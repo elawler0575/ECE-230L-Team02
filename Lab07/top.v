@@ -18,7 +18,8 @@ ones_compliment ones_compliment(
 
 twos_compliment twos_compliment(
     .A(sw[9:2]),
-    .B(led[13:6])
+    .Y(led[13:6])
     );
     
 endmodule
+
