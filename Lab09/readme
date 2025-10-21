@@ -1,5 +1,8 @@
 # Multiplexers and Demultiplexers
 
+Emaline Lawler
+Annika Camarillo
+
 In this lab you have learned about multiplexers and demultiplexers.
 
 ## Rubric
@@ -14,8 +17,12 @@ In this lab you have learned about multiplexers and demultiplexers.
 ## Lab Questions
 
 ### In plain English describe the function and use of a multiplexer.
+A multiplexer takes multiple inputs and selects a single output from one of the inputs. 
+A multiplexer can be used to take multiple signals and choose an output to send to the CPU or memory.
 
 ### In plain English describe the function and use of a demultiplexer.
+A demultiplexer takes one input and makes multiple outputs.
+A demultiplexer can be used to send a single signal to multple places.
 
 ### What other uses might these circuits have? (Think Shannon’s)
-
+These circuits can simplify large truth tables to make it easier to get the logic equation.
