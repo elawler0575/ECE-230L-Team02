@@ -1,5 +1,8 @@
 # Sequential Circuits: Latches
 
+Emaline Lawler
+Annika Camarillo
+
 In this lab, you learned about the basic building block of sequential circuits: the latch.
 
 ## Rubric
@@ -14,7 +17,11 @@ In this lab, you learned about the basic building block of sequential circuits: 
 ## Lab Questions
 
 ###  Why can we not just use structural Verilog to implement latches?
+In structural Verilog, the assignment is continuous meaning it tries to assign everything at once. When the assign statements have variables that are used in one assign statement and is the variable being assigned to in the other assign statement,
+it doesn't work very well.
 
 ### What is the meaning of always @(*) in a sensitivity block?
+The always @(*) means that the sensitivity block should change when the signal in the @(*) changes.
 
 ### What importance is memory to digital circuits?
+
