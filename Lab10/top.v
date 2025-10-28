@@ -59,6 +59,7 @@ module top(
     );
     
     multiplexer datamult0( //our multiplexer is only four bits wide so need to use two
+        // i think this is where our problem is
     .sel(sw[7:6]),
     .data(memory[0]),
     .Y(led[9:8])
