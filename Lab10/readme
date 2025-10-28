@@ -24,4 +24,4 @@ it doesn't work very well.
 The always @(*) means that the sensitivity block should change when the signal in the @(*) changes.
 
 ### What importance is memory to digital circuits?
-
+It allows for data to be saved even when the inputs change. It keeps the previous or current state whereas without memory the outputs change immidetly after your inputs change.
