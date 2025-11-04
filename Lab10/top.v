@@ -9,7 +9,7 @@ module top(
     wire [7:0] memory[3:0]; // from eightbitdlatches to multiplexer
     
     dlatch dlatch( //from part 1: 1 bit dlatch
-    .E(btnc),
+    .E(btnC),
     .D(sw[0]),
     .Q(led[0]),
     .notQ(led[1])
@@ -17,7 +17,7 @@ module top(
     
     //part 2
     demux enabledemux(
-    .data(btnc),
+    .data(btnC),
     .sel(sw[7:6]),
     .A(enable[0]),
     .B(enable[1]),
