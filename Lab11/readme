@@ -24,5 +24,5 @@ A level sensitive circuit is where the output follows data when enable is on.
 It is important to declare the initial state because the FPGA doesn't know what values are there to begin with.
 
 ### What do edge sensitive circuits let us build?
-Edge sensitive circuits let us build precise timing circuits.
+Edge sensitive circuits let us build precise timing circuits, such as counters and registers who state only change when the clock changes.
 
