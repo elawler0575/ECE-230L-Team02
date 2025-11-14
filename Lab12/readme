@@ -14,7 +14,10 @@ In this lab, you’ve learned about One Hot and Binary state machines and how to
 ## Lab Questions
 
 ### Compare and contrast One Hot and Binary encodings
+The One Hot encodings use only N number of flip flips for N number of states whereas Binary encodings log2(N) flip flops.
 
 ### Which method did your team find easier, and why?
+Our team found the One Hot encodings easier as it was a lot more intuative when writing the logic. In doing the Kmaps for Binary there where lots of small computational errors.
 
 ### In what conditions would you have to use one over the other? Think about resource utilization on the FPGA.
+If your machine uses a lot of states then using Binary would be best as you wouldnt have to do one flip flop per state. FPGA's are designed to hold a lot of information and have lots of flip flops avaible so One Hot is best.
