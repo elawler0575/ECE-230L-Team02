@@ -17,9 +17,11 @@ In this lab, we learned how to make clock dividers from two types of counters.
 ## Lab Questions
 
 ### 1 - Why does the Modulo Counter actually divide clocks by 2 * Count?
+The modulo counter divides by 2 * count because it toggles the output twice in one cycle.
 
 ### 2 - Why does the ring counter's output go to all 1s on the first clock cycle?
 
-### 3 - What width of ring counter would you use to get to an output of ~1KHz?
 
+### 3 - What width of ring counter would you use to get to an output of ~1KHz?
+You would need approximately 17 T flipflops to get 1KHz.
 
