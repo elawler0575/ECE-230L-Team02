@@ -21,6 +21,7 @@ The modulo counter divides by 2 * count because it toggles the output twice in o
 
 ### 2 - Why does the ring counter's output go to all 1s on the first clock cycle?
 The ring counter's output go to all 1s on the first clock cycle because the flip flops start in random(not onehot) before the first clock edge.
+
 ### 3 - What width of ring counter would you use to get to an output of ~1KHz?
 You would need approximately 17 T flipflops to get 1KHz.
 
